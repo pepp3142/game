@@ -1,0 +1,74 @@
+#div1 {
+    text-align: center;
+}
+
+#btn1 {
+    border-radius: 15%;
+    font-size: 1em;
+    border-style: groove;
+    border-width: 3px;
+    border-color: aqua;
+    padding: 15px 10px;
+    animation-name: colorchange;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#btn1:hover {
+    border-style: groove;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+#btn1:active {
+    background-color:gray;
+}
+
+#btn2 {
+    border-radius: 15%;
+    font-size: 1em;
+    border-style: groove;
+    border-width: 3px;
+    border-color:crimson;
+    padding: 15px 10px;
+    animation-name: colorchange2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#btn2:hover {
+    border-style: groove;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+#btn2:active {
+    background-color:gray;
+}
+
+
+@keyframes colorchange {
+    10% {background-color: red;}
+    20% {background-color: orange;}
+    30% {background-color: yellow;}
+    40% {background-color: green;}
+    50% {background-color: blue;}
+    60% {background-color: blueviolet;}
+    70% {background-color: purple;}
+    80% {background-color: gold;}
+    90% {background-color: white;}
+}
+
+@keyframes colorchange2 {
+    10% {background-color: white;}
+    20% {background-color: gold;}
+    30% {background-color: purple;}
+    40% {background-color: blue;}
+    50% {background-color: aquamarine;}
+    60% {background-color: lime;}
+    70% {background-color: yellow;}
+    80% {background-color: orange;}
+    90% {background-color: red;}
+}
